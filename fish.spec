@@ -10,7 +10,7 @@ Source0:        http://fishshell.com/files/2.0.0/fish-2.0.0.tar.gz
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
-BuildRequires:  ncurses-devel gettext groff
+BuildRequires:  ncurses-devel gettext
 BuildRequires:  autoconf chrpath gzip
 
 
